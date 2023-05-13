@@ -1,0 +1,102 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header {
+
+    display: flex;
+    text-decoration: none;
+
+
+}
+
+header #highScore a {
+    text-decoration: none;
+    color: rgba(190, 22, 190, 0.719);
+}
+
+header #timeLeft {
+
+    margin-left: 1300px;
+}
+
+main {
+    margin-top: 150px;
+    text-align: center;
+}
+
+
+
+#startQuiz {
+    height: 45px;
+    width: 120px;
+    border-radius: 10px;
+    color: white;
+    background-color: rgba(13, 15, 148, 0.781);
+    margin-left: 700px;
+}
+
+button a {
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    text-align: left;
+}
+
+#secondPageContainer {
+    text-align: center;
+    margin-top: 150px;
+
+}
+
+main button {
+    display: block;
+    height: 40px;
+    border-radius: 10px;
+    margin-top: 5px;
+    background-color: rgba(13, 15, 148, 0.781);
+    margin-left: 540px;
+
+}
+
+main button:hover {
+    background-color: purple;
+}
+
+#thirdPageContainer {
+    text-align: center;
+}
+#seventhPageContainer{
+    text-align: center;
+}
+#seventhPageContainer button{
+    
+    margin-left: 10px;
+    margin-top: -10px;
+}
+#seventhPageContainer label {
+    margin-right: 10px;
+}
+#seventhPageContainer section {
+    
+    display: flex;
+    align-items: flex-start;
+    
+    margin-left: 600px;
+    text-align: left;
+    flex-wrap: nowrap;
+    
+}
+
+
+
+footer {
+    margin-left: 40px;
+    width: 600px;
+    border-top: .5px solid rgba(0, 0, 0, 0.199);
+    margin-top: 60px;
+    color: rgba(0, 0, 0, 0.199);
+    font-size: 30px;
+    text-align: left;
+    font-style: italic;
+}

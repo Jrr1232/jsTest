@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Quiz</title>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+
+<body>
+    <header>
+        <section id="highScore">
+            <a href="#" id= "highScorelink">View high scores</a>
+
+
+        </section>
+        <section id="timeLeft">Time: </section>
+    </header>
+    <main>
+        <section id="firstPageContainer">
+            <h1>Coding Quiz Challenge</h1>
+            <p>Try to answer the following code-related questions within the time limit.<br />
+                Keep in mind that incorrect answers will penalize your score/time <br /> by ten seconds!</p>
+            <button id="startQuiz"><a href="#">Start Quiz</a></button>
+        </section>
+        <section id="secondPageContainer">
+            <h1>Commonly used data types DO Not Include</h1>
+            <section class="btn-group-1">
+                <button class="wrong-btn"><a href="#">1.strings</a></button>
+                <button class="wrong-btn"><a href="#">2.booleans</a></button>
+                <button class="right-btn"><a href="#">3.alerts</a></button>
+                <button class="wrong-btn"><a href="#">4.numbers</a></button>
+
+            </section>
+        </section>
+        <section id="thirdPageContainer">
+            <h1>The condition in an if / else statement is <br/>
+            enclosed with _________</h1>
+            <section class="btn-group-2">
+                <button class="wrong-btn"><a href="#">1.quotes</a></button>
+                <button class="wrong-btn"><a href="#">2.curly brackets</a></button>
+                <button class="right-btn"><a href="#">3.parenthesis</a></button>
+                <button class="wrong-btn"><a href="#">4.square brackets</a></button>
+        </section>
+           </section>
+           <section id="fourthPageContainer">
+            <h1>Arrays in Javascript can be used to store <br/>
+            ___________.</h1>
+                <section class="btn-group-3">
+                    <button class="wrong-btn"><a href="#">1.numbers and strings</a></button>
+                    <button class="wrong-btn"><a href="#">2.other arrays</a></button>
+                    <button class="wrong-btn"><a href="#">3.booleans</a></button>
+                    <button class="right-btn"><a href="#">4.all of the above</a></button>
+
+                </section> 
+                </section>
+            </section>
+            <section id="fifthPageContainer">
+             <h1>String values must be enlosed within ________ <br/>
+             when being assigned to variables</h1>
+                 <section class="btn-group-4">
+                     <button class="wrong-btn"><a href="#">1.commas</a></button>
+                     <button class="wrong-btn"><a href="#">2.curly brackets</a></button>
+                     <button class="right-btn"><a href="#">3.quotes</a></button>
+                     <button class="wrong-btn"><a href="#">4.parenthesis</a></button>
+ 
+                 </section> 
+                 </section>
+                  <section id="sixthPageContainer">
+             <h1>A very useful tool used during development and debugging for printing content to the debugger is:</h1>
+                 <section class="btn-group-5">
+                     <button class="wrong-btn"><a href="#">1.JavaScript</a></button>
+                     <button class="wrong-btn"><a href="#">2.terminal/bash</a></button>
+                     <button class="wrong-btn"><a href="#">3.for loops</a></button>
+                     <button class="right-btn"><a href="#">4.console.log</a></button>
+ 
+                 </section> 
+                 </section>
+                 <section id="seventhPageContainer">
+                    <h1>All done!</h1>
+                        <p id="finalScore">Your final score is</p>
+                        <section>
+                            <label>Enter Initials :</label>
+                            <input type="text" id="initialButton">
+                            <button id="submit"><a href="#">Submit</a></button>
+                        </section>
+                 </section>
+                        <!-- <button id="submit"><a href="#">Submit</a></button> -->
+                        <section id="lastPageContainer">
+                            <h1>High Scores</h1>
+                            <div id="userHighScore"></div>
+                            <button id="goBack"><a href="#">Go Back</a></button>
+                            <button id="clearHighScores"><a href="#">Clear High Scores</a></button>
+                        </section>
+
+
+
+    </main>
+    <footer>
+        <section>
+            <p id="wrongAnswer">Wrong!</p>
+            <p id="rightAnswer">Correct!</p>
+        </section>
+    </footer>
+    <script src="assets/script.js"></script>
+
+</body>
+
+</html>
