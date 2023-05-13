@@ -348,7 +348,7 @@ footer.style.display="none"
 lastPageContent.style.display ="block";
 }
 
-
+// function 
 // function to start game
 
 
