@@ -279,31 +279,41 @@ wrongButtonPage5.forEach((item) =>{
     item.addEventListener('click',wrongAnswerPage6)
 })
 
+// new local storage
 
-
+var iDiv = document.createElement('div');
 //function for local storage; 
+var array = []
+
 function setHighScore(){
 seventhPageContent.style.display="none";
 footer.style.display="none"
 lastPageContent.style.display ="block";
-var newname = document.getElementById("initialButton").value
 
-const initialScore = {"newname":newname, "score":score};
-const myJSON = JSON.stringify(initialScore)
-localStorage.setItem("score",myJSON);
-localScore = localStorage.getItem("score");
-var obj = JSON.parse(localScore)
+// var newname = document.getElementById("initialButton").value
+// if array is not empty 
+var initial = document.getElementById("initialButton").value
+var obj = {"score":score,
+initial}
+array.push(obj)
 
-var iDiv = document.createElement('div');
-iDiv.id = 'block';
-iDiv.className = 'block';
-iDiv.textContent = obj.newname + ": "+ obj.score;
+console.log(obj)
+
+
+localStorage.setItem("key", JSON.stringify(array))
+
+
+let retArray = JSON.parse(localStorage.getItem("key"))
+console.log(retArray)
+console.log(JSON.parse(localStorage.getItem("key")))
+iDiv.textContent = retArray;
 document.getElementById('userHighScore').appendChild(iDiv);
 
 
 
-
 }
+
+
 
 
 
@@ -346,6 +356,19 @@ seventhPageContent.style.display = "none"
 
 footer.style.display="none"
 lastPageContent.style.display ="block";
+
+// localScore = localStorage.getItem("score");
+// var obj = JSON.parse(localScore)
+let retString = localStorage.getItem("key")
+var obj = JSON.parse('{"firstName":"John", "lastName":"Doe"}');
+let retArray = JSON.parse(retString)
+
+
+iDiv.textContent = retArray;
+document.getElementById('userHighScore').appendChild(iDiv);
+
+
+
 }
 
 // function 
