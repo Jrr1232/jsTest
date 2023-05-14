@@ -1,5 +1,5 @@
-# JavaScript Quiz Game
-## Challenge Week 4
+# JavaScript Quiz Game Challenge Week 4
+
 
 ## This week's challenge involves building a Javascript Quiz Webpage
 The webpage will allow users to take a time quiz on Javascript fundamentals.
