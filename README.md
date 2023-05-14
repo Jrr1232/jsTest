@@ -13,3 +13,13 @@ It will store their high score to be able to compare to their peers
 <br />When all questions are answered or the timer reaches 0.
 <br />Then the game is over.
 <br />Initials and scores are saved after the game is over.
+
+
+### Functions
+There will be a High Score button that will retrieve high scores set before and display then on the page.
+
+<br /> A Start game button will commence the game 
+
+<br /> A set score button will save the intial and score of the user to localStorage()
+
+<br /> A reset score button will clear the localStorage()
