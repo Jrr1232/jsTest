@@ -66,28 +66,43 @@ main button:hover {
 #thirdPageContainer {
     text-align: center;
 }
-#seventhPageContainer{
+
+#seventhPageContainer {
     text-align: center;
 }
-#seventhPageContainer button{
-    
+
+#seventhPageContainer button {
+
     margin-left: 10px;
     margin-top: -10px;
 }
+
 #seventhPageContainer label {
     margin-right: 10px;
 }
+
 #seventhPageContainer section {
-    
+
     display: flex;
     align-items: flex-start;
-    
+
     margin-left: 600px;
     text-align: left;
     flex-wrap: nowrap;
-    
+
 }
 
+#userHighScorelist .listElement {
+    list-style: none;
+}
+
+#lastPageContainer ul {
+    width: 300px;
+    list-style: none;
+    background-color: tan;
+    margin-left: 600px;
+
+}
 
 
 footer {
