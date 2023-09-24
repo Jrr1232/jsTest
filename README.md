@@ -4,7 +4,8 @@
 
 
 # JavaScript Quiz Web Page
-![Screenshot 2023-05-14 190915](https://github.com/Jrr1232/challenge-week-4/assets/71472570/4ea7ded7-1453-4cf2-bd16-00fef2886fa5)
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+
 
 
 ## 🤔 Introduction
