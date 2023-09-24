@@ -9,7 +9,7 @@ var timer = document.getElementById("timeLeft");
 var highScoreDiv = document.getElementById("userHighScore")
 var score = 0;
 var timeRemaining = 70;
-var intial = document.getElementById("initialButton").value
+var initials = document.getElementById("initialButton").value
 // page containers
 var content = document.querySelector("main");
 var firstPageContent = document.getElementById("firstPageContainer")
@@ -339,6 +339,7 @@ function resetPage() {
 
 
 
+
 }
 
 
@@ -402,7 +403,7 @@ function startGame() {
             timeRemaining--;
             timer.textContent = "Time left:" + " " + timeRemaining;
 
-            if (timeRemaining === 0) {
+            if (timeRemaining < 0) {
                 // Stops execution of action at set interval
                 clearInterval(timerInterval);
                 // Calls function to create and append image
@@ -448,7 +449,7 @@ if (timeRemaining === 1 || timeRemaining > 0) {
 // event listener for 5 buttons.
 startQuizButton.addEventListener('click', startGame);
 submit.addEventListener('click', setHighScore)
-console.log("the intials:" + intial)
+console.log("the intials:" + initials)
 goBackButton.addEventListener('click', resetPage)
 clearButton.addEventListener('click', clear)
 highScorelink.addEventListener('click', viewHighScore)
