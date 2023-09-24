@@ -403,10 +403,15 @@ function startGame() {
             timeRemaining--;
             timer.textContent = "Time left:" + " " + timeRemaining;
 
-            if (timeRemaining < 0) {
+
+            if (timeRemaining < 1) {
                 // Stops execution of action at set interval
                 clearInterval(timerInterval);
                 // Calls function to create and append image
+                handleGameOver();
+                timeRemaining = 70
+
+
 
             }
 
@@ -428,23 +433,17 @@ function startGame() {
 }
 //If the timer runs out, alert GAME OVER, gameOn variable set to false
 
-if (timeRemaining === 1 || timeRemaining > 0) {
-    console.log(("Game Over"))
-
-    gameOn = false
-    secondPageContent.style.display = "none"
-    thirdPageContent.style.display = "none"
-    forthPageContent.style.display = "none"
-    fifthPageContent.style.display = "none"
-    sixthPageContent.style.display = "none"
-    seventhPageContent.style.display = "none"
-    lastPageContent.style.display = "none"
-
+function handleGameOver() {
+    alert("Game Over");
+    gameOn = false;
+    // Hide all content sections
+    var contentSections = [secondPageContent, thirdPageContent, forthPageContent, fifthPageContent, sixthPageContent, seventhPageContent, lastPageContent];
+    contentSections.forEach(function (section) {
+        section.style.display = "none";
+    });
+    // Display the first page
     firstPageContent.style.display = "block";
-
-
 }
-
 
 // event listener for 5 buttons.
 startQuizButton.addEventListener('click', startGame);
