@@ -10,6 +10,10 @@ header {
 
 }
 
+#GameOver {
+    display: none
+}
+
 header #highScore a {
     text-decoration: none;
     color: rgba(190, 22, 190, 0.719);
