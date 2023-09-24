@@ -49,6 +49,7 @@ button a {
 
 }
 
+
 main button {
     display: block;
     height: 40px;
@@ -114,4 +115,47 @@ footer {
     font-size: 30px;
     text-align: left;
     font-style: italic;
+}
+
+@media screen and (max-width: 600px) {
+    #startQuiz {
+        margin-left: 180px;
+        margin-top: 20px;
+    }
+
+    header #timeLeft {
+
+        margin-left: 300px;
+    }
+
+
+    main button {
+        display: block;
+        height: 40px;
+        border-radius: 10px;
+        margin-top: 5px;
+        background-color: rgba(13, 15, 148, 0.781);
+        margin-left: 50px;
+
+    }
+
+    #seventhPageContainer section {
+
+        display: flex;
+        align-items: flex-start;
+
+        margin-left: 60px;
+        text-align: left;
+        flex-wrap: nowrap;
+
+    }
+
+    #lastPageContainer ul {
+        width: 30px;
+        list-style: none;
+        background-color: tan;
+        margin-left: 600px;
+
+    }
+
 }
