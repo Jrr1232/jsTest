@@ -1,10 +1,6 @@
-[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
-
-
-
-
 # JavaScript Quiz Web Page
-[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 
 
 
@@ -12,7 +8,7 @@
 
 The webpage will allow users to take a timed quiz on Javascript fundamentals.
 It will store their high score to be able to compare to their peers. 👻
- <br/>🎯 URL - https://eclectic-cucurucho-42d8d5.netlify.app/Portfolio
+ <br/>🎯 URL - https://jrr1232.github.io/jsTest/
 
 
 
